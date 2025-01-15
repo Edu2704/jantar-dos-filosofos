@@ -11,7 +11,7 @@ class Filosofo(Thread):
     
     def run(self):
         print(f"{self.nome} está faminto")
-        self.estado = 3
+        self.estado = 1
         sleep(2)
         self.comer()
     
